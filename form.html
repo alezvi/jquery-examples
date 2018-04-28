@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title></title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+
+	<script src="index.js"></script>
+
+	<style type="text/css" rel="stylesheet">
+
+		div {
+			margin: 1em;
+		}
+
+		.error {
+			border: 1px solid red
+		}
+
+		.success {
+			border: 1px solid green
+		}
+
+	</style>
+</head>
+<body>
+
+	<form id="register" method="post">
+		<div>
+			<input type="text" name="nombre" placeholder="Nombre" value="">
+		</div>
+
+		<div>
+			<textarea placeholder="Descripcion"></textarea>
+		</div>
+
+		<div>
+			<label>
+				<input type="checkbox" checked>
+				Acepta terminos y condiciones
+			</label>
+		</div>
+
+		<div>
+			<button>Enviar</button>
+		</div>
+	</form>
+
+</body>
+</html>
